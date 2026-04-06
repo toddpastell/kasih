@@ -37,7 +37,6 @@ function Sprite:setState(state)
 	self.state = state
 	self.tick = 0
 	self.step = 1
-	-- maybe set the frame?
 end
 
 return Sprite

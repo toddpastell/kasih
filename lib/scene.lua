@@ -1,9 +1,11 @@
 local Class = require("lib.class")
 local Entity = require("lib.entity")
+local Timer = require("lib.timer")
 
 local Scene = Class:extend({ current = nil })
 
 function Scene:update(dt)
+	Timer:update(dt)
 	Entity:each(function(e) e:update(dt) end)
 end
 
