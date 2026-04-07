@@ -11,6 +11,7 @@ Kasih is a base framework for making games faster using object-oriented programm
 - **Sprite System** - Animation-ready sprites with frame-based state management
 - **Scene Management** - Organized scene system for managing different game states
 - **SpriteSheet Support** - Efficient sprite sheet handling for optimized rendering
+- **Timer System** - Pool-based timer management for scheduling delayed and recurring callbacks
 
 ## Getting Started
 
